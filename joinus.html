@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+    
+    
+    <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="uiCookies:Stack">Stack</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+             <li><a href="/">Home</a></li>
+            <li><a href="/procedure">How IT Works</a></li>
+            <li><a href="/joinus">JoinUs</a></li>
+            <li><a href="/about">Who we are?</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flexslider">
+      <ul class="slides">
+        
+        <li style="background-image: url(img/slider_2.png)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center">
+                  
+                  <h1 class="probootstrap-heading">Join Us</h1>
+                  <p class="probootstrap-subheading">Register with us by filling the form below::</p>
+                   <p class="probootstrap-subheading">Our Executive will connect ASAP on your Email.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+        <h2 >Note:Invest your mind,Go through "How It Works" and "Who we are" First.</h1>
+          <div class="col-md-5 probootstrap-animate" data-animate-effect="fadeIn">
+            <h2>Fill-up the below form::</h2>
+            <form action="/join" method="post" class="probootstrap-form">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+              </div>
+              <div class="form-group">
+              
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+              </div>
+              <div class="form-group">
+               
+                <input type="text" class="form-control" id="Phone" name="Phone" placeholder="Phone no.">
+              </div>
+              <div class="form-group">
+                
+                <input type="text" class="form-control" id="Parent" name="Parent" placeholder="Parent ID(If any)">
+              </div>
+              
+               <div class="form-group">
+                
+                <input type="text" class="form-control" id="ID" name="ID" placeholder="PanID/StudentID">
+              </div>
+             
+              <div class="form-group">
+
+<select name="Payment" class="form-control" id="sel1" >
+    <option default>Payment Mode</option>
+    <option>PhonePe</option>
+    <option>Google Pay(Tez)</option>
+    <option>Bhim Upi</option>
+    <option>Paytm</option>
+
+  </select>
+
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="Join Us">
+              </div>
+            </form>
+          </div>
+         
+        </div>
+      </div>
+    </section>   
+  
+    
+ <footer class="probootstrap-footer" style="height:20px;background-color:black">
+      
+        <!-- END row -->
+        
+     
+    </footer>
+    
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+
+  </body>
+</html>
