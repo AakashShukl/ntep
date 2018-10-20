@@ -1,6 +1,6 @@
 var express = require('express');
 var nodemailer = require('nodemailer');
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8888;
+var server_port = process.env.PORT || 8888;
 
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
